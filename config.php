@@ -1,7 +1,7 @@
 ﻿<?php
 			use MinecraftServerStatus\MinecraftServerStatus;
 
-			require '../vendor/autoload.php';
+			require 'vendor/autoload.php';
 
 			$response = MinecraftServerStatus::query('play.mc450.com', 25565);
 
