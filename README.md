@@ -4,7 +4,7 @@ Minecraft服务器状态获取, 基于PHP + Composer + Bootsrap, 不通过插件
 
 *测试支持 1.8~1.10 / BungeeCord / WaterFall 等等..*
 
-### 安装方法 / 你需要先安装PHP
+### 安装方法 / 你需要先安装PHP + Composer
 ```
 composer require funnyitselmo/minecraftserverstatus
 ```
