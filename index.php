@@ -37,7 +37,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1><?php echo $c_name; ?> - 开放平台</h1>
+        <h1><?php echo $c_name; ?> - 数据平台</h1>
 		<br>
         <p>服务器当前在线 <span class="label label-primary"><?php echo $server_online; ?> / <?php echo $server_max; ?></span> 名玩家</p>
 		<p>服务器所适用版本 <span class="label label-info"><?php echo $server_version; ?></span></p>
