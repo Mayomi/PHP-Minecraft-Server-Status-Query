@@ -1,9 +1,9 @@
-﻿<?php
+<?php
  include "config.php";
 ?>
 
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,10 @@
           </button>
           <a class="navbar-brand" href="<?php echo $c_website; ?>"><img width="24" height="24" src="<?php echo $server_icon; ?>" /> <?php echo $c_name; ?></a>
         </div>
+        <div class="nav navbar-nav navbar-right">
+			<a href="https://github.com/Mayomi/PHP-Minecraft-Server-Status-Query/" class="navbar-text"
+            target="_blank">@Mayomi</a>
+         </div>
        </div>
     </div>
 
